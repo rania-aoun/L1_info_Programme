@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>SystemeExploitation1</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button onclick="toggleDarkMode()" class="dark-btn">🌙 Toggle Dark Mode</button>
+        <nav>
+            <a href="index.html">🏠 Home</a>
+            <a href="semester1.html">📘 Semester 1</a>
+            <a href="semester2.html">📗 Semester 2</a>
+        </nav>
+        <hr>
+        <button onclick="toggleContent()" class="toggle-btn">📂 Show Details</button>
+
+        <div id="hidden-content" style="display: none;">
+            <p>Ce cours n'est pas disponible</p>
+        </div>
+        <h2>Examens</h2>
+        <ul>
+            <li><a href="Examen_SE_23_24.pdf" target="_blank">Examen_23_24</a></li>
+            <li><a href="Examen_SE_Controle_23_24.pdf" target="_blank">EXamen_Controle_23_24</a></li>
+        </ul>
+        <a href="semester1.html">⬅️ Back to Semester 1</a>
+        <script src="script.js"></script>
+
+    </body>
+</html>
